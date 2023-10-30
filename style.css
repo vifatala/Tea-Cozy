@@ -88,3 +88,21 @@ article.our-mission {
     line-height: 20px;
     text-align: center;
 }
+
+.panel {
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel img {
+    width: 300px;
+    height: 200px;
+}
+
+.panel figure {
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+}
