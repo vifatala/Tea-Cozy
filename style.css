@@ -110,16 +110,22 @@ article.our-mission,
 }
 
 article.locations {
-    height: 500px;
+    height: 1000px;
     width: 1200px;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1rmmyou*_ga*NjQyMTgxMzIzNS4xNjk3MDg0MzMw*_ga_3LRZM6TM9L*MTY5ODY5OTI0NC4yNS4wLjE2OTg2OTkyNDQuNjAuMC4w");
-    background-position: left top;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
-.addresses {
+.locations h2 {
+    margin-bottom: 15px;
+}
+
+section.addresses {
     display: inline-flex;
+    justify-content: center;
 }
 
 .square {
@@ -128,7 +134,30 @@ article.locations {
     background-color: black;
     opacity: 1;
     display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.info {
+    width: 300px;
+    height: 240px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+}
+
+.info h4,
+.info p {
+    margin: 0;
+}
+
+.info h4 {
+    font-size: 26px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
